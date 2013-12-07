@@ -1,0 +1,58 @@
+mongod --help for help and startup options
+Mon Oct 14 15:01:23.965 [initandlisten] MongoDB starting : pid=32053 port=27017 dbpath=/data/db/ 64-bit host=Macbook-Pro.local
+Mon Oct 14 15:01:23.965 [initandlisten] 
+Mon Oct 14 15:01:23.965 [initandlisten] ** WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
+Mon Oct 14 15:01:23.965 [initandlisten] db version v2.4.6
+Mon Oct 14 15:01:23.965 [initandlisten] git version: b9925db5eac369d77a3a5f5d98a145eaaacd9673
+Mon Oct 14 15:01:23.965 [initandlisten] build info: Darwin bs-osx-106-x86-64-2.10gen.cc 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:32:41 PDT 2011; root:xnu-1504.15.3~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Mon Oct 14 15:01:23.965 [initandlisten] allocator: system
+Mon Oct 14 15:01:23.965 [initandlisten] options: {}
+Mon Oct 14 15:01:23.966 [initandlisten] journal dir=/data/db/journal
+Mon Oct 14 15:01:23.966 [initandlisten] recover : no journal files present, no recovery needed
+Mon Oct 14 15:01:23.989 [websvr] admin web console waiting for connections on port 28017
+Mon Oct 14 15:01:23.989 [initandlisten] waiting for connections on port 27017
+Mon Oct 14 15:01:55.934 [initandlisten] connection accepted from 127.0.0.1:51904 #1 (1 connection now open)
+Mon Oct 14 15:01:55.935 [initandlisten] connection accepted from 127.0.0.1:51905 #2 (2 connections now open)
+Mon Oct 14 15:01:55.935 [initandlisten] connection accepted from 127.0.0.1:51906 #3 (3 connections now open)
+Mon Oct 14 15:01:55.936 [initandlisten] connection accepted from 127.0.0.1:51907 #4 (4 connections now open)
+Mon Oct 14 15:01:55.936 [initandlisten] connection accepted from 127.0.0.1:51908 #5 (5 connections now open)
+Mon Oct 14 15:06:56.809 [conn3] end connection 127.0.0.1:51906 (4 connections now open)
+Mon Oct 14 15:06:56.809 [conn4] end connection 127.0.0.1:51907 (4 connections now open)
+Mon Oct 14 15:06:56.809 [conn5] end connection 127.0.0.1:51908 (4 connections now open)
+Mon Oct 14 15:06:56.809 [conn1] end connection 127.0.0.1:51904 (4 connections now open)
+Mon Oct 14 15:06:56.809 [conn2] end connection 127.0.0.1:51905 (4 connections now open)
+Mon Oct 14 15:06:58.416 [initandlisten] connection accepted from 127.0.0.1:52024 #6 (1 connection now open)
+Mon Oct 14 15:06:58.417 [initandlisten] connection accepted from 127.0.0.1:52025 #7 (2 connections now open)
+Mon Oct 14 15:06:58.417 [initandlisten] connection accepted from 127.0.0.1:52026 #8 (3 connections now open)
+Mon Oct 14 15:06:58.418 [initandlisten] connection accepted from 127.0.0.1:52027 #9 (4 connections now open)
+Mon Oct 14 15:06:58.418 [initandlisten] connection accepted from 127.0.0.1:52028 #10 (5 connections now open)
+Mon Oct 14 15:25:25.815 [initandlisten] connection accepted from 127.0.0.1:52163 #11 (6 connections now open)
+Mon Oct 14 15:26:00.127 [conn11] end connection 127.0.0.1:52163 (5 connections now open)
+Mon Oct 14 15:26:23.738 [initandlisten] connection accepted from 127.0.0.1:52189 #12 (6 connections now open)
+Mon Oct 14 15:27:04.068 [conn12] end connection 127.0.0.1:52189 (5 connections now open)
+Mon Oct 14 15:27:05.412 [initandlisten] connection accepted from 127.0.0.1:52190 #13 (6 connections now open)
+Mon Oct 14 15:46:10.443 [conn13] end connection 127.0.0.1:52190 (5 connections now open)
+Mon Oct 14 15:46:12.500 [conn10] end connection 127.0.0.1:52028 (4 connections now open)
+Mon Oct 14 15:46:12.500 [conn9] end connection 127.0.0.1:52027 (4 connections now open)
+Mon Oct 14 15:46:12.500 [conn8] end connection 127.0.0.1:52026 (4 connections now open)
+Mon Oct 14 15:46:12.500 [conn7] end connection 127.0.0.1:52025 (4 connections now open)
+Mon Oct 14 15:46:12.500 [conn6] end connection 127.0.0.1:52024 (4 connections now open)
+Mon Oct 14 15:46:15.225 [signalProcessingThread] got signal 15 (Terminated: 15), will terminate after current cmd ends
+Mon Oct 14 15:46:15.225 [signalProcessingThread] now exiting
+Mon Oct 14 15:46:15.225 dbexit: 
+Mon Oct 14 15:46:15.225 [signalProcessingThread] shutdown: going to close listening sockets...
+Mon Oct 14 15:46:15.225 [signalProcessingThread] closing listening socket: 9
+Mon Oct 14 15:46:15.226 [signalProcessingThread] closing listening socket: 10
+Mon Oct 14 15:46:15.226 [signalProcessingThread] closing listening socket: 11
+Mon Oct 14 15:46:15.226 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+Mon Oct 14 15:46:15.226 [signalProcessingThread] shutdown: going to flush diaglog...
+Mon Oct 14 15:46:15.226 [signalProcessingThread] shutdown: going to close sockets...
+Mon Oct 14 15:46:15.226 [signalProcessingThread] shutdown: waiting for fs preallocator...
+Mon Oct 14 15:46:15.226 [signalProcessingThread] shutdown: lock for final commit...
+Mon Oct 14 15:46:15.226 [signalProcessingThread] shutdown: final commit...
+Mon Oct 14 15:46:15.228 [signalProcessingThread] shutdown: closing all files...
+Mon Oct 14 15:46:15.228 [signalProcessingThread] closeAllFiles() finished
+Mon Oct 14 15:46:15.228 [signalProcessingThread] journalCleanup...
+Mon Oct 14 15:46:15.228 [signalProcessingThread] removeJournalFiles
+Mon Oct 14 15:46:15.228 [signalProcessingThread] shutdown: removing fs lock...
+Mon Oct 14 15:46:15.228 dbexit: really exiting now
