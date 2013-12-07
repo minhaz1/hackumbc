@@ -1,4 +1,0 @@
-hackumbc
-========
-
-HackUMBC Project
